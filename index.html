@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mohit Patel - Data & AI Engineer passionate about building scalable, automated, and intelligent systems that transform raw data into meaningful insights.">
+    <meta name="keywords"
+        content="Data Engineer, AI Engineer, Machine Learning, Deep Learning, Web Scraping, Automation, Python, Selenium, Computer Vision, NLP">
+    <meta name="author" content="Mohit Patel">
+    <title>Mohit Patel | Data & AI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <!-- Background -->
+    <div class="background-image"></div>
+    <div class="background-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Mohit<span>.</span></a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="hero-greeting">Hi, I'm</p>
+                        <h1 class="hero-name">Mohit Patel</h1>
+                        <h2 class="hero-title">DATA & AI ENGINEER</h2>
+                        <p class="hero-description">
+                            Building scalable, automated, and intelligent systems that transform raw data into
+                            meaningful insights.
+                        </p>
+                        <div class="hero-separator"></div>
+
+                        <div class="hero-search-container">
+                            <div class="search-box glass-card">
+                                <i data-lucide="search"></i>
+                                <input type="text" id="hero-search" placeholder="Search portfolio...">
+                            </div>
+                        </div>
+
+                        <div class="hero-quick-filters">
+                            <button class="filter-btn active" data-filter="all">All Works</button>
+                            <button class="filter-btn" data-filter="ai">AI Agents</button>
+                            <button class="filter-btn" data-filter="automation">Automation</button>
+                            <button class="filter-btn" data-filter="data">Data Eng</button>
+                        </div>
+
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Success</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5.0</span>
+                                <span class="stat-label">Rating</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hero-avatar glass-card">
+                            <div class="avatar-placeholder">
+                                <span>MP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-grid-full">
+                    <div class="about-info-panel fade-in-up">
+                        <h2 class="section-title text-left">The Vision</h2>
+                        <div class="about-text glass-card">
+                            <p>
+                                I am a <strong>Data & AI Engineer</strong> passionate about building scalable,
+                                automated, and intelligent systems that transform raw data into meaningful insights. My
+                                vision is to design end-to-end data pipelines that seamlessly integrate <strong>data
+                                    scraping</strong>, <strong>automation</strong>, <strong>machine learning</strong>,
+                                and <strong>deep learning</strong> into production-ready solutions.
+                            </p>
+                            <p>
+                                With strong hands-on experience in <strong>web scraping</strong>, <strong>Selenium
+                                    automation</strong>, and <strong>dataset creation</strong>, I focus on collecting
+                                high-quality data at scale. I complement this with <strong>machine learning</strong> and
+                                <strong>deep learning</strong> techniques to analyze patterns, build predictive models,
+                                and enable intelligent decision-making.
+                            </p>
+                            <p>
+                                I aim to bridge the gap between data acquisition and AI intelligence—developing systems
+                                that are efficient, reliable, and scalable. As I continue to grow, my goal is to work on
+                                real-world AI applications involving <strong>computer vision</strong>,
+                                <strong>NLP</strong>, and <strong>deep learning</strong>, delivering impactful solutions
+                                through clean engineering and modern AI practices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-categories fade-in-up">
+                    <!-- Category: Core Stack -->
+                    <div class="tech-category">
+                        <h3 class="category-title">Core Stack</h3>
+                        <div class="tech-stack-grid">
+                            <div class="tech-item glass-card" title="Python"><i
+                                    class="devicon-python-plain"></i><span>Python</span></div>
+                            <div class="tech-item glass-card" title="NumPy">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                                    alt="NumPy">
+                                <span>NumPy</span>
+                            </div>
+                            <div class="tech-item glass-card" title="Pandas">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                                    alt="Pandas">
+                                <span>Pandas</span>
+                            </div>
+                            <div class="tech-item glass-card" title="Matplotlib">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
+                                    alt="Matplotlib">
+                                <span>Matplotlib</span>
+                            </div>
+                            <div class="tech-item glass-card" title="Seaborn">
+                                <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn">
+                                <span>Seaborn</span>
+                            </div>
+                            <div class="tech-item glass-card" title="Scikit-learn">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+                                    alt="Scikit-learn">
+                                <span>Sklearn</span>
+                            </div>
+                            <div class="tech-item glass-card" title="TensorFlow"><i class="devicon-tensorflow-original"
+                                    style="color: #ff6f00;"></i><span>TensorFlow</span></div>
+                            <div class="tech-item glass-card" title="FastAPI"><i
+                                    class="devicon-fastapi-plain"></i><span>FastAPI</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Category: AI Models -->
+                    <div class="tech-category">
+                        <h3 class="category-title">AI Models</h3>
+                        <div class="tech-stack-grid">
+                            <div class="tech-item glass-card" title="OpenAI">
+                                <img src="https://www.svgrepo.com/show/306500/openai.svg" alt="OpenAI"
+                                    style="filter: invert(1);">
+                                <span>OpenAI</span>
+                            </div>
+                            <div class="tech-item glass-card" title="Google Gemini">
+                                <img src="https://cdn.simpleicons.org/googlegemini/ffffff" alt="Gemini">
+                                <span>Gemini</span>
+                            </div>
+                            <div class="tech-item glass-card" title="Anthropic Claude">
+                                <img src="https://cdn.simpleicons.org/claude/ffffff" alt="Claude">
+                                <span>Claude</span>
+                            </div>
+                            <div class="tech-item glass-card" title="Groq">
+                                <span class="tech-text-icon" style="color: #f55036;">⚡</span>
+                                <span>Groq</span>
+                            </div>
+                            <div class="tech-item glass-card" title="Open Source LLMs">
+                                <span class="tech-text-icon">🦙</span>
+                                <span>Llama / Qwen</span>
+                            </div>
+                            <div class="tech-item glass-card" title="Kimi AI">
+                                <span class="tech-text-icon" style="color: #6366f1;">🌙</span>
+                                <span>Kimi AI</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Category: RAG & Ecosystem -->
+                    <div class="tech-category">
+                        <h3 class="category-title">RAG & AI Ecosystem</h3>
+                        <div class="tech-stack-grid">
+                            <div class="tech-item glass-card" title="LangChain">
+                                <span class="tech-text-icon">🦜</span>
+                                <span>LangChain</span>
+                            </div>
+                            <div class="tech-item glass-card" title="LlamaIndex">
+                                <span class="tech-text-icon">🦙</span>
+                                <span>LlamaIndex</span>
+                            </div>
+                            <div class="tech-item glass-card" title="CrewAI">
+                                <span class="tech-text-icon" style="color: #ff4d4d;">🤖</span>
+                                <span>CrewAI</span>
+                            </div>
+                            <div class="tech-item glass-card" title="n8n Automation">
+                                <img src="https://cdn.simpleicons.org/n8n/ff6d5a" alt="n8n">
+                                <span>n8n</span>
+                            </div>
+                            <div class="tech-item glass-card" title="Browser Use">
+                                <span class="tech-text-icon" style="color: #3b82f6;">🌐</span>
+                                <span>browser-use</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category: Vector & Graph DBs -->
+                    <div class="tech-category">
+                        <h3 class="category-title">Vector & Graph DBs</h3>
+                        <div class="tech-stack-grid">
+                            <div class="tech-item glass-card" title="Qdrant">
+                                <span class="tech-text-icon" style="color: #ff4d4d;">Q</span>
+                                <span>Qdrant</span>
+                            </div>
+                            <div class="tech-item glass-card" title="Chroma">
+                                <span class="tech-text-icon">🎨</span>
+                                <span>Chroma</span>
+                            </div>
+                            <div class="tech-item glass-card" title="PostgreSQL"><i class="devicon-postgresql-plain"
+                                    style="color: #336791;"></i><span>PostgreSQL</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">SELECTED PROJECTS</h2>
+                    <p class="section-subtitle">Building machine learning models and deep learning solutions for
+                        real-world predictions and intelligent decision-making.</p>
+                    <div class="header-separator"></div>
+
+                    <div class="project-controls">
+                        <div class="search-box glass-card">
+                            <i data-lucide="search"></i>
+                            <input type="text" id="project-search"
+                                placeholder="Search projects by technology, topic, or keyword...">
+                        </div>
+                        <div class="project-filters">
+                            <button class="filter-btn active" data-category="all">All Projects</button>
+                            <button class="filter-btn" data-category="ai">Machine Learning</button>
+                            <button class="filter-btn" data-category="data">Deep Learning</button>
+                            <button class="filter-btn" data-category="rag">RAG</button>
+                            <button class="filter-btn" data-category="selenium">Selenium Experience</button>
+                            <button class="filter-btn" data-category="langchain">LangChain</button>
+                            <button class="filter-btn" data-category="cv">Computer Vision</button>
+                        </div>
+                    </div>
+                </header>
+                <div class="projects-bento">
+                    <!-- Project 1: Customer Churn Prediction with ANN (Featured) -->
+                    <div class="project-card glass-card project-featured" data-category="data">
+                        <div class="project-image">
+                            <img src="asset/project_placeholder.png" alt="Customer Churn Prediction">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-tag">Deep Learning</span>
+                                <a href="https://github.com/mohitpatel1904/Deep_learning_Project" target="_blank"
+                                    class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                            <h3>Customer Churn Prediction with ANN</h3>
+                            <p>Implemented an Artificial Neural Network using TensorFlow and Keras to predict bank
+                                customer churn. The model analyzes 10,000+ customer records with features like credit
+                                score, geography, age, and balance to identify churn patterns and enable proactive
+                                retention strategies.</p>
+                            <div class="project-tech">
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-tensorflow-original"></i>
+                                <i class="devicon-pandas-original"></i>
+                                <i class="devicon-numpy-plain"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Car Price Prediction -->
+                    <div class="project-card glass-card" data-category="ai">
+                        <div class="project-image">
+                            <img src="asset/project_placeholder.png" alt="Car Price Prediction">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-tag">Machine Learning</span>
+                                <a href="https://github.com/mohitpatel1904/acmegrad_project" target="_blank"
+                                    class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                            <h3>Car Price Prediction</h3>
+                            <p>A machine learning model to predict car prices based on various features using
+                                scikit-learn and data analysis techniques.</p>
+                            <div class="project-tech">
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-jupyter-plain"></i>
+                                <i class="devicon-pandas-original"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Parkinson's Disease Prediction -->
+                    <div class="project-card glass-card" data-category="ai">
+                        <div class="project-image">
+                            <img src="asset/project_placeholder.png" alt="Parkinson's Disease Prediction">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-tag">Machine Learning</span>
+                                <a href="https://github.com/mohitpatel1904/acmegrad_project" target="_blank"
+                                    class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                            <h3>Parkinson's Disease Prediction</h3>
+                            <p>A predictive model for early detection of Parkinson's disease using machine learning
+                                algorithms and medical data analysis.</p>
+                            <div class="project-tech">
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-jupyter-plain"></i>
+                                <i class="devicon-numpy-plain"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: RAG AI Teaching Assistant -->
+                    <div class="project-card glass-card" data-category="rag">
+                        <div class="project-image">
+                            <img src="asset/project_placeholder.png" alt="RAG AI Teaching Assistant">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-tag">RAG / LLM</span>
+                                <a href="https://github.com/mohitpatel1904/RAG_PROJECT" target="_blank"
+                                    class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                            <h3>RAG AI Teaching Assistant</h3>
+                            <p>An intelligent teaching assistant powered by Retrieval-Augmented Generation (RAG).
+                                Converts video content to embeddings, stores vectors, and uses LLM for context-aware Q&A
+                                on educational content.</p>
+                            <div class="project-tech">
+                                <i class="devicon-python-plain"></i>
+                                <span class="tech-text-icon" style="font-size: 0.8rem;">🦜</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Selenium Web Scraping Collection -->
+                    <div class="project-card glass-card" data-category="selenium">
+                        <div class="project-image">
+                            <img src="asset/project_placeholder.png" alt="Selenium Web Scraping Collection">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-tag">Selenium</span>
+                                <a href="https://github.com/mohitpatel1904/Selenium-Experience" target="_blank"
+                                    class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                            <h3>Selenium Web Scraping Collection</h3>
+                            <p>Comprehensive collection of Selenium automation scripts for extracting articles, links,
+                                and images from multiple websites with organized output.</p>
+                            <div class="project-tech">
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-selenium-original"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: Unsplash Illustration Scraper -->
+                    <div class="project-card glass-card" data-category="selenium">
+                        <div class="project-image">
+                            <img src="asset/project_placeholder.png" alt="Unsplash Illustration Scraper">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-tag">Selenium</span>
+                                <a href="https://github.com/mohitpatel1904/unsplash_illustration_img_scraper"
+                                    target="_blank" class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                            <h3>Unsplash Illustration Scraper</h3>
+                            <p>Multi-method image scraper supporting Selenium, Playwright, and API approaches for
+                                downloading high-quality illustrations from Unsplash with CSV output.</p>
+                            <div class="project-tech">
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-selenium-original"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 7: Pinterest Illustration Scraper -->
+                    <div class="project-card glass-card" data-category="selenium">
+                        <div class="project-image">
+                            <img src="asset/project_placeholder.png" alt="Pinterest Illustration Scraper">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-tag">Selenium</span>
+                                <a href="https://github.com/mohitpatel1904/Pinterest_Illustration-_img" target="_blank"
+                                    class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                            <h3>Pinterest Illustration Scraper</h3>
+                            <p>Automated Pinterest scraper with duplicate detection, content filtering, and customizable
+                                search queries for bulk illustration downloads.</p>
+                            <div class="project-tech">
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-selenium-original"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 8: Vecteezy Vector Illustration Scraper -->
+                    <div class="project-card glass-card" data-category="selenium">
+                        <div class="project-image">
+                            <img src="asset/project_placeholder.png" alt="Vecteezy Vector Illustration Scraper">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-tag">Selenium</span>
+                                <a href="https://github.com/mohitpatel1904/vecteezy_img_scraper" target="_blank"
+                                    class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                            <h3>Vecteezy Vector Scraper</h3>
+                            <p>High-performance vector illustration scraper with content filtering, CSV schema output,
+                                and smart exclusion of unwanted content types.</p>
+                            <div class="project-tech">
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-selenium-original"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 9: LangChain Chatbot with Local Ollama -->
+                    <div class="project-card glass-card" data-category="langchain">
+                        <div class="project-image">
+                            <img src="asset/project_placeholder.png" alt="LangChain Chatbot with Local Ollama">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-tag">LangChain</span>
+                                <a href="https://github.com/mohitpatel1904/Langchain_Chatbot_with_Local_Ollama"
+                                    target="_blank" class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                            <h3>LangChain Chatbot with Ollama</h3>
+                            <p>Chat with a local LLM (Llama 3.2) using LangChain and Ollama. Features a Streamlit UI,
+                                runs completely locally with no API keys required.</p>
+                            <div class="project-tech">
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-streamlit-plain"></i>
+                                <span class="tech-text-icon" style="font-size: 0.8rem;">🦜</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 10: LangChain Q&A with PDF -->
+                    <div class="project-card glass-card" data-category="langchain">
+                        <div class="project-image">
+                            <img src="asset/project_placeholder.png" alt="LangChain Q&A with PDF">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-tag">LangChain</span>
+                                <a href="https://github.com/mohitpatel1904/Langchain_Q-A_With_pdf" target="_blank"
+                                    class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                            <h3>LangChain Q&A with PDF</h3>
+                            <p>PDF document Q&A system using LangChain, Pinecone vector store, and HuggingFace
+                                embeddings. Load PDFs, chunk documents, and get intelligent answers.</p>
+                            <div class="project-tech">
+                                <i class="devicon-python-plain"></i>
+                                <span class="tech-text-icon" style="font-size: 0.8rem;">🦜</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 11: Hand Gesture Music Player -->
+                    <div class="project-card glass-card" data-category="cv">
+                        <div class="project-image">
+                            <img src="asset/project_placeholder.png" alt="Hand Gesture Music Player">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <span class="project-tag">Computer Vision</span>
+                                <a href="https://github.com/mohitpatel1904/Hand-Gesture-Music-Player" target="_blank"
+                                    class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                            <h3>Gesture-Controlled Music Player</h3>
+                            <p>Control music playback with hand gestures using OpenCV and MediaPipe. Features real-time
+                                hand tracking with 21 landmarks, 7 gesture controls for volume, playback, and
+                                navigation.</p>
+                            <div class="project-tech">
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-opencv-plain"></i>
+                                <i class="devicon-numpy-plain"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and bring your next project to life</p>
+                <div class="contact-content">
+                    <div class="contact-info glass-card">
+                        <h3>Let's Work Together</h3>
+                        <p>
+                            I'm always interested in hearing about new projects and opportunities.
+                            Whether you need help with data automation, web scraping, or AI integration,
+                            I'd love to hear from you.
+                        </p>
+                        <div class="contact-links">
+                            <a href="mailto:mohit19patel04@gmail.com" class="contact-link">
+                                <span class="link-icon"><i data-lucide="mail"></i></span>
+                                <span>mohit19patel04@gmail.com</span>
+                            </a>
+                            <a href="https://github.com/mohitpatel1904" target="_blank" class="contact-link">
+                                <span class="link-icon"><i data-lucide="github"></i></span>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohit-patel-860a4b372" target="_blank"
+                                class="contact-link">
+                                <span class="link-icon"><i data-lucide="linkedin"></i></span>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form glass-card" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Mohit Patel. All rights reserved.</p>
+                <p>Data & AI Engineer | India</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+
+</html>
