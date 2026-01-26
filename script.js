@@ -421,6 +421,7 @@ function initProjectFilters() {
                     if (category === 'langchain') return tag.includes('langchain');
                     if (category === 'cv') return tag.includes('computer vision');
                     if (category === 'automation') return tag.includes('automation');
+                    if (category === 'ai-agent') return tag.includes('ai agent') || tag.includes('automation');
                     if (category === 'web') return tag.includes('scraping') || tag.includes('web');
                     return tag.includes(category);
                 });
