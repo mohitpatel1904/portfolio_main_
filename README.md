@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my expertise in Data Engineering, AI/ML, Web Scraping, and Automation.
 
-![Portfolio Preview](asset/project_placeholder.png)
+![Portfolio Preview](img/Gemini_Generated_Image_yqdumayqdumayqdu.png)
 
 ## ✨ Features
 
