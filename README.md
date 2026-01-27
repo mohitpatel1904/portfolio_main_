@@ -56,7 +56,7 @@ Qdrant • Chroma • PostgreSQL
 
 3. **Open in browser**
    ```
-   http://localhost:8080
+   https://mohitpatel1904.github.io/portfolio_main_/
    ```
 
 ## 📁 Project Structure
